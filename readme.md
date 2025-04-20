@@ -71,7 +71,7 @@ NumberVariable.cs, line 8: Change last argument to (float)default
 
 BoolVariable.cs, line 8: Change last argument to (byte)(int)default != 0
 
-Now go back into the Assets folder and open the plugins folder. Delete everything. Copy the following dll's from the game's managed folder into the plugins folder:
+Now go back into the Assets folder and open the plugins folder. Delete everything. Copy the following dll's from the game's managed folder into the plugins folder:\
 ![dlls](dllstocopy.png)
 
 It should compile now. 
