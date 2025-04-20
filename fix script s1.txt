@@ -1,0 +1,52 @@
+using Grid = ScheduleOne.Tiles.Grid;
+
+BuildManager.cs
+BuildUpdate_Grid.cs
+Autotest.cs
+Constructable_GridBased.cs
+ConstructionManager.cs
+GridItem.cs
+BrickPressData.cs
+DryingRackData.cs
+ChemistryStationData.cs
+CauldronData.cs
+LabOvenData.cs
+GridItemData.cs
+MixingStationData.cs
+PotData.cs
+PackagingStationData.cs
+PlaceableStorageData.cs
+DryingRack.cs
+SoilPourerData.cs
+ToggleableItemData.cs
+BrickPress.cs
+TrashContainerData.cs
+LaunderingStation.cs
+Cauldron.cs
+LabOven.cs
+PackagingStation.cs
+ChemistryStation.cs
+MixingStation.cs
+Pot.cs
+TrashContainerItem.cs
+
+Create Beautify.cs in Scripts\Beautify\Universal
+
+Refasm the Unity DLL
+
+Decompile the contents. Place in Scripts\VolumetricFogAndMist2
+
+// Decompiled with JetBrains decompiler
+// Type: VolumetricFogAndMist2.VolumetricFog
+// Assembly: Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+// MVID: 96BEA75E-C4F9-48CA-8D0E-33D7E4D3B52E
+// Assembly location: G:\Temp\test\Unity.RenderPipelines.Universal.Runtime.dll
+
+Convert code Namespace thing to block scoped namespaces
+
+NumberVariable.cs
+			: base((string)null, default(EVariableReplicationMode), persistent: false, default(EVariableMode), (Player)null, (float)default(_00210))
+->
+			: base((string)null, default(EVariableReplicationMode), persistent: false, default(EVariableMode), (Player)null, (float)default)
+
+Same Thing in bool variable. Change the default thingy
